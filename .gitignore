@@ -1,0 +1,43 @@
+# Python
+*.py[cod]
+__pycache__/
+*.pyo
+*.pyd
+
+# Виртуальное окружение
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Папки с кэшами
+.cache/
+*.egg-info/
+.eggs/
+
+# Django
+*.sqlite3
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+media/
+staticfiles/
+uploads/
+*.dump
+
+# Настройки IDE
+.vscode/
+.idea/
+
+# Система
+.DS_Store
+Thumbs.db
+
+# Конфиденциальные файлы
+*.env
+*.pylintrc
