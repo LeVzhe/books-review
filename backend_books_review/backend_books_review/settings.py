@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "rest_framework_simplejwt",
     "django.contrib.postgres",
+    "users",
 ]
 
 MIDDLEWARE = [
@@ -136,8 +137,8 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-# ПОТОМ ПРОСМОТРЕТЬ
-# AUTH_USER_MODEL = "users.User"
+# User auth ref
+AUTH_USER_MODEL = "users.User"
 
 # LOGOUT_REDIRECT_URL = "users:login"
 # LOGIN_REDIRECT_URL = "main:index"

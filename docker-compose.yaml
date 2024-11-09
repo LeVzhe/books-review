@@ -1,5 +1,3 @@
-version: '3'
-
 services:
   backend-django:
     build: ./backend_books_review
