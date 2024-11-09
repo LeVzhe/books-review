@@ -45,11 +45,11 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
-    "rest_framework.authtoken",
+    # "rest_framework.authtoken",
     "rest_framework_simplejwt",
     "django.contrib.postgres",
     "users",
-    "dj_rest_auth",
+    # "dj_rest_auth",
 ]
 
 MIDDLEWARE = [
