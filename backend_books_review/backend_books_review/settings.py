@@ -45,9 +45,11 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
+    "rest_framework.authtoken",
     "rest_framework_simplejwt",
     "django.contrib.postgres",
     "users",
+    "dj_rest_auth",
 ]
 
 MIDDLEWARE = [
@@ -149,9 +151,16 @@ REST_FRAMEWORK = {
     "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.LimitOffsetPagination",
     "PAGE_SIZE": 3,
     "DEFAULT_AUTHENTICATION_CLASSES": [
+        # "dj_rest_auth.jwt_auth.JWTCookieAuthentication",
         "rest_framework_simplejwt.authentication.JWTAuthentication",
     ],
 }
+
+# REST_AUTH = {
+#     "USE_JWT": True,
+#     "JWT_AUTH_COOKIE": "booksreview_cookie",
+#     "JWT_AUTH_REFRESH_COOKIE": "booksreview_refresh_cookie",
+# }
 
 # DRF JWT
 SIMPLE_JWT = {
