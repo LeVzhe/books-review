@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     "rest_framework_simplejwt",
     "django.contrib.postgres",
     "users",
+    "books",
     # "dj_rest_auth",
 ]
 
@@ -116,6 +117,8 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+MEDIA_ROOT = BASE_DIR / "media"
+MEDIA_URL = "/media/"
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
