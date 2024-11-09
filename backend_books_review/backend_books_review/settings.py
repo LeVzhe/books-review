@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     "users",
     "books",
     # "dj_rest_auth",
+    "django_cleanup.apps.CleanupConfig",
 ]
 
 MIDDLEWARE = [

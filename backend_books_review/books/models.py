@@ -14,6 +14,8 @@ class Book(models.Model):
     )
     author = models.CharField(
         max_length=200,
+        default="Неизвестен",
+        verbose_name="Автор книги",
     )
     description = models.TextField(
         blank=True,
@@ -42,7 +44,7 @@ class Book(models.Model):
     )
 
     def __str__(self):
-        return f"{self.author} :: {self.title}"
+        return f"{self.title} :: {self.author}"
 
     class Meta:
         verbose_name_plural = "Книги"
