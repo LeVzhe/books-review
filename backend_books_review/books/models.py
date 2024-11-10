@@ -1,6 +1,5 @@
-from django.db import models
-
 from books.utilities import get_timestamp_path
+from django.db import models
 from users.models import User
 
 
