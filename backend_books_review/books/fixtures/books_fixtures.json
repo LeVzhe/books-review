@@ -1,0 +1,240 @@
+[
+    {
+        "model": "books.book",
+        "pk": 1,
+        "fields": {
+            "title": "1984",
+            "author": "Джордж Оруэлл",
+            "description": "Роман о тоталитарном обществе и последствиях утраты личной свободы.",
+            "release_date": "2024-11-09",
+            "cover_img": "",
+            "publicated": "2024-11-09T13:28:44.250Z",
+            "is_active": true,
+            "post_owner": 1
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 2,
+        "fields": {
+            "title": "Война и мир",
+            "author": "Лев Толстой",
+            "description": "Эпопея о жизни русского общества во время Наполеоновских войн.",
+            "release_date": "2024-11-09",
+            "cover_img": "",
+            "publicated": "2024-11-09T13:28:44.250Z",
+            "is_active": true,
+            "post_owner": 1
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 3,
+        "fields": {
+            "title": "Мастер и Маргарита",
+            "author": "Михаил Булгаков",
+            "description": "Роман, переплетающий реальные и мистические события в советской Москве.",
+            "release_date": "2024-11-09",
+            "cover_img": "",
+            "publicated": "2024-11-09T13:28:44.250Z",
+            "is_active": true,
+            "post_owner": 1
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 4,
+        "fields": {
+            "title": "Убить пересмешника",
+            "author": "Харпер Ли",
+            "description": "История о расовых предрассудках в Америке через призму детства.",
+            "release_date": "2024-11-09",
+            "cover_img": "",
+            "publicated": "2024-11-09T13:28:44.250Z",
+            "is_active": true,
+            "post_owner": 1
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 5,
+        "fields": {
+            "title": "Собачье сердце",
+            "author": "Михаил Булгаков",
+            "description": "Сатирическая повесть о эксперименте, превращающем собаку в человека.",
+            "release_date": "2024-11-09",
+            "cover_img": "",
+            "publicated": "2024-11-09T13:28:44.250Z",
+            "is_active": true,
+            "post_owner": 1
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 6,
+        "fields": {
+            "title": "Великий Гэтсби",
+            "author": "Фрэнсис Скотт Фицджеральд",
+            "description": "Роман о любви, мечтах и утраченных надеждах в эпоху джаза.",
+            "release_date": "2024-11-09",
+            "cover_img": "",
+            "publicated": "2024-11-09T13:28:44.250Z",
+            "is_active": true,
+            "post_owner": 1
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 7,
+        "fields": {
+            "title": "Гордость и предубеждение",
+            "author": "Джейн Остен",
+            "description": "Классический роман о любви и социальном уровне в Англии XIX века.",
+            "release_date": "2024-11-09",
+            "cover_img": "",
+            "publicated": "2024-11-09T13:28:44.250Z",
+            "is_active": true,
+            "post_owner": 1
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 8,
+        "fields": {
+            "title": "Три товарища",
+            "author": "Эрих Мария Ремарк",
+            "description": "Роман о дружбе и любви на фоне разрушенной Европы после Первой мировой войны.",
+            "release_date": "2024-11-09",
+            "cover_img": "",
+            "publicated": "2024-11-09T13:28:44.250Z",
+            "is_active": true,
+            "post_owner": 1
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 9,
+        "fields": {
+            "title": "Братья Карамазовы",
+            "author": "Фёдор Достоевский",
+            "description": "Философский роман о добре и зле, вере и сомнении.",
+            "release_date": "2024-11-09",
+            "cover_img": "",
+            "publicated": "2024-11-09T13:28:44.250Z",
+            "is_active": true,
+            "post_owner": 1
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 10,
+        "fields": {
+            "title": "Сияние",
+            "author": "Стивен Кинг",
+            "description": "Ужасная история о семье, которая сталкивается с паранормальными явлениями.",
+            "release_date": "2024-11-09",
+            "cover_img": "",
+            "publicated": "2024-11-09T13:28:44.250Z",
+            "is_active": true,
+            "post_owner": 1
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 11,
+        "fields": {
+            "title": "Старик и море",
+            "author": "Эрнест Хемингуэй",
+            "description": "Повесть о борьбе старого рыбака с гигантским марлином.",
+            "release_date": "2024-11-09",
+            "cover_img": "",
+            "publicated": "2024-11-09T13:28:44.250Z",
+            "is_active": true,
+            "post_owner": 1
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 12,
+        "fields": {
+            "title": "Анна Каренина",
+            "author": "Лев Толстой",
+            "description": "Роман о жизни, любви и трагедии в высшем обществе России.",
+            "release_date": "2024-11-09",
+            "cover_img": "",
+            "publicated": "2024-11-09T13:28:44.250Z",
+            "is_active": true,
+            "post_owner": 1
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 13,
+        "fields": {
+            "title": "Азазель",
+            "author": "Борис Акунин",
+            "description": "Детективный роман о приключениях эрудита и детектива Эраста Фандорина.",
+            "release_date": "2024-11-09",
+            "cover_img": "",
+            "publicated": "2024-11-09T13:28:44.250Z",
+            "is_active": true,
+            "post_owner": 1
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 14,
+        "fields": {
+            "title": "Чистый лист",
+            "author": "Сергей Лукьяненко",
+            "description": "Научно-фантастический роман о жизни в будущем и поисках истины.",
+            "release_date": "2024-11-09",
+            "cover_img": "",
+            "publicated": "2024-11-09T13:28:44.250Z",
+            "is_active": true,
+            "post_owner": 1
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 15,
+        "fields": {
+            "title": "Степной волк",
+            "author": "Герман Гессе",
+            "description": "Роман о внутренней борьбе человека с самим собой и обществом.",
+            "release_date": "2024-11-09",
+            "cover_img": "",
+            "publicated": "2024-11-09T13:28:44.250Z",
+            "is_active": true,
+            "post_owner": 1
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 16,
+        "fields": {
+            "title": "Метро 2033",
+            "author": "Дмитрий Глуховский",
+            "description": "Постапокалиптический роман о выживании людей в метро Москвы.",
+            "release_date": "2024-11-09",
+            "cover_img": "",
+            "publicated": "2024-11-09T13:28:44.250Z",
+            "is_active": true,
+            "post_owner": 1
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 17,
+        "fields": {
+            "title": "О дивный новый мир",
+            "author": "Олдос Хаксли",
+            "description": "Роман-антиутопия о будущем, где контролируется каждая сфера жизни.",
+            "release_date": "2024-11-09",
+            "cover_img": "",
+            "publicated": "2024-11-09T13:28:44.250Z",
+            "is_active": true,
+            "post_owner": 1
+        }
+    }
+]

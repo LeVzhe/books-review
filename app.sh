@@ -16,6 +16,8 @@ case "$1" in
         ;;
 #------------------------------------------------#
 # manage.py команды
+# docker compose exec backend-django python -Xutf8 manage.py dumpdata books.Book > backend_books_review/books/fixtures/books_fixtures.json
+# docker compose exec backend-django python -Xutf8 manage.py loaddata books/fixtures/books_fixtures.json
     makemigrations)
         echo "Создание миграций..."
         docker compose exec backend-django python manage.py makemigrations
