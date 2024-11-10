@@ -1,13 +1,8 @@
-from api.views import RegistrationApiView
+from api.views import BooksViewSet, RegistrationApiView
 from django.urls import include, path
 from rest_framework import routers
-from rest_framework_simplejwt.views import (
-    TokenObtainPairView,
-    TokenRefreshView,
-    TokenVerifyView,
-)
-
-from api.views import BooksViewSet
+from rest_framework_simplejwt.views import (TokenObtainPairView,
+                                            TokenRefreshView, TokenVerifyView)
 
 app_name = "api"
 
