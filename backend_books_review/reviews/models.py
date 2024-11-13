@@ -1,4 +1,6 @@
 from books.models import Book
+from django.core.validators import MaxValueValidator, MinValueValidator
+
 from django.db import models
 from users.models import User
 
@@ -24,9 +26,17 @@ class Review(models.Model):
         verbose_name="Опубликовано",
     )
     rating = models.IntegerField(
-        max_length=5,
+        validators=[MinValueValidator(0), MaxValueValidator(5)],
         help_text="Оценка книги от 0 до 5",
         blank=True,
         null=True,
         verbose_name="Оценка",
     )
+
+    def __str__(self):
+        return f"{self.book.title} ({self.book.author})  :: {self.post_owner}"
+
+    class Meta:
+        verbose_name_plural = "Отзывы"
+        verbose_name = "Отзыв"
+        ordering = ["-publicated"]
