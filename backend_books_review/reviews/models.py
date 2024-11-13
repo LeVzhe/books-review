@@ -1,6 +1,5 @@
-from django.db import models
-
 from books.models import Book
+from django.db import models
 from users.models import User
 
 
@@ -24,7 +23,7 @@ class Review(models.Model):
         db_index=True,
         verbose_name="Опубликовано",
     )
-    rating = models.SmallIntegerField(
+    rating = models.IntegerField(
         max_length=5,
         help_text="Оценка книги от 0 до 5",
         blank=True,
