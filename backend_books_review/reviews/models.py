@@ -1,6 +1,5 @@
 from books.models import Book
 from django.core.validators import MaxValueValidator, MinValueValidator
-
 from django.db import models
 from users.models import User
 
@@ -13,11 +12,13 @@ class Review(models.Model):
     )
     post_owner = models.ForeignKey(
         User,
+        blank=True,
+        null=True,
         on_delete=models.CASCADE,
         verbose_name="Автор публикации",
     )
     content = models.CharField(
-        max_length=256,
+        max_length=200,
         verbose_name="Отзыв",
     )
     publicated = models.DateTimeField(
